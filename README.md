@@ -18,8 +18,9 @@ Everything OpenStack
 
 # Install Docker on Centos/Fedora      
   - https://docs.docker.com/install/linux/docker-ce/centos/#set-up-the-repository
-  - Intall files: https://ezrlx1001.erf.target.com/latest/yum/docker-centos-7/x86_64/docker/Packages/
-  - Learn what type of servers they are: https://firewall.us-central-1.core.k8s.tgt/firewall/zone
+  - Target specific, but not necessary for build:
+    - Intall files: https://ezrlx1001.erf.target.com/latest/yum/docker-centos-7/x86_64/docker/Packages/
+    - Learn what type of servers they are: https://firewall.us-central-1.core.k8s.tgt/firewall/zone
   - 
 
 # STEP #3 - Set up the instance:
