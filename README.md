@@ -8,6 +8,10 @@ Everything OpenStack
   - Create New Sudo User and Password:
     - https://linuxize.com/post/create-a-sudo-user-on-centos/
     - https://www.centos.org/docs/5/html/5.1/Deployment_Guide/s2-users-add.html
+    - Adding password: 
+        - Set password: Sudo passwd cloud-user
+        - Modify config (Change to 'PasswordAuthentication yes'): Sudo nano /etc/ssh/sshd_config 
+        - Restart ssh server: Sudo systemctl restart sshd
 
   - Set Password on Centos
     > **Set password:** sudo passwd cloud-user
